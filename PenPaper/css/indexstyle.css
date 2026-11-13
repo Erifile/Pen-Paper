@@ -1,0 +1,32 @@
+/* main.css */
+
+
+#slider
+{
+    display: flex;
+    width: 100%; /* от main */
+    height: 20vh;
+    border: 1px solid;
+    justify-self: center;
+}
+.slide
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.slide1
+{
+    background-image: url(../media/slide1.png);
+    background-size: cover;
+}
+.slide2
+{
+    background-image: url(../media/slide2.png);
+    background-size: cover;
+}
+.slide3
+{
+    background-image: url(../media/slide3.png);
+    background-size: cover;
+}
