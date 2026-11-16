@@ -4,29 +4,55 @@
 #slider
 {
     display: flex;
-    width: 100%; /* от main */
+    width: 100vw; /* от main */
     height: 20vh;
     border: 1px solid;
     justify-self: center;
 }
 .slide
 {
-    display: flex;
+    display: none;
     width: 100%;
     height: 100%;
+}
+.slide.active
+{
+    display: flex;
+}
+.active
+{
+    background-size: cover;
 }
 .slide1
 {
     background-image: url(../media/slide1.png);
-    background-size: cover;
+    /* background-size: cover; */
+    
 }
 .slide2
 {
     background-image: url(../media/slide2.png);
-    background-size: cover;
+    /* background-size: cover; */
 }
 .slide3
 {
     background-image: url(../media/slide3.png);
-    background-size: cover;
+    /* background-size: cover; */
+}
+
+.circles
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-self: center;
+    justify-content: space-between;
+}
+.circle
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 1rem;
+    background-color: aqua;
+    
 }
